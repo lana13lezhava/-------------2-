@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background-color: #b8bce0;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.testemonial-container {
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #666c9e;
+  padding: 70px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50px);
+  top: -50px;
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 100;
+}/*# sourceMappingURL=3.css.map */

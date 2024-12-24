@@ -1,0 +1,50 @@
+body {
+  background-color: #a9cdc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: cursive;
+}
+
+h2 {
+  color: #3c534c;
+}
+
+.container {
+  background-color: #c7dbd5;
+  width: 400px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 2px #4f6b62;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.counter-container p {
+  font-size: 18px;
+  color: gray;
+}
+
+.total-counter {
+  color: slateblue;
+}
+
+.remaining-counter {
+  color: orangered;
+}/*# sourceMappingURL=4.css.map */
